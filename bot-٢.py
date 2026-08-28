@@ -62,7 +62,7 @@ logger = logging.getLogger(__name__)
 # A source can forward to ONE destination or SEVERAL — always use a list.
 FORWARD_MAP: dict[int, list[int]] = {
     # -1001111111111: [-1002222222222],                # Group A -> one destination
-    # -1003333333333: [-1004444444444, 987654321],     # Group B -> a group AND a DM
+   -5417239309: [-5529613398, 6428188260],     # Group B -> a group AND a DM
 }
 
 # If True, the bot logs the chat ID/title of any message it receives from a
