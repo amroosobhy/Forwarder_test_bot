@@ -71,13 +71,13 @@ FORWARD_MAP: dict[int, list[int]] = {
 # Fill these two lists in instead of FORWARD_MAP above, and leave FORWARD_MAP
 # empty — the block below builds the map for you automatically.
 COMMON_SOURCE_GROUPS: list[int] = [
-    # -5417239309,
-    # -1009876543,
+    -5417239309,
+    #-1009876543,
     # -1005556677,
 ]
 COMMON_DESTINATIONS: list[int] = [
-    # -5529613398,
-    # 6428188260,
+    -5529613398,
+   6428188260,
 ]
 for _source in COMMON_SOURCE_GROUPS:
     FORWARD_MAP.setdefault(_source, [])
