@@ -60,7 +60,9 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # source_group_chat_id -> destination_chat_id
 FORWARD_MAP: dict[int, int] = {
-    # -1001111111111: -1002222222222,   # Group A -> Destination A
+   -5417239309: -5529613398,
+  -5529613398: -5529613398,
+   # -1001111111111: -1002222222222,   # Group A -> Destination A
     # -1003333333333: -1004444444444,   # Group B -> Destination B
 }
 
